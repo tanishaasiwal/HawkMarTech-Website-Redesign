@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HawkMarTech</title>
+    <link rel="icon" type="image/png" href="hawkmarktech.png" />
+    <link rel="shortcut icon" href="hawkmarktech.png" />
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=clash-display@200,300,400,500,600,700&f[]=satoshi@300,400,500,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <a href="/" class="logo-link">
+        <img src="hawkmarktech.png" alt="HawkMarTech" class="logo" />
+      </a>
+
+      <!-- NAVIGATION -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="blog.html">Blogs</a></li>
+      </ul>
+
+      <!-- ONLY ONE DESKTOP BUTTON -->
+      <div class="nav-btn">
+        <a href="contact.html"
+          ><button type="button" class="book-a-call">
+            Get in Touch
+            <i class="fa-solid fa-arrow-right"></i></button
+        ></a>
+      </div>
+
+      <!-- MOBILE HAMBURGER -->
+      <button class="menu-toggle" id="menuToggle" type="button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <main>
+      <section class="contact-hero">
+        <div class="contact-hero-container">
+          <div class="contact-hero-tag" data-aos="fade-up">CONTACT US</div>
+          <h1 class="contact-hero-title" data-aos="fade-up">
+            Let's Build Something<br />
+            <span>Great Together.</span>
+          </h1>
+          <p class="contact-hero-sub" data-aos="fade-up">
+            Have a project in mind? Tell us about it—we'll get back within 24
+            hours.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-main">
+        <div class="contact-main-container">
+          <div class="contact-info">
+            <div class="contact-info-tag" data-aos="fade-up">GET IN TOUCH</div>
+            <h2 class="contact-info-title" data-aos="fade-up">
+              We'd Love to Hear From You
+            </h2>
+            <p class="contact-info-desc" data-aos="fade-up">
+              Whether you're a startup looking to scale or an enterprise
+              planning your next big move—we're here to help.
+            </p>
+
+            <div class="contact-info-list" data-aos="fade-up">
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="contact-info-text">
+                  <div class="contact-info-label">Visit Us</div>
+                  <div class="contact-info-value">Gurugram, India</div>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-info-text">
+                  <div class="contact-info-label">Email Us</div>
+                  <div class="contact-info-value">hello@hawkmartech.com</div>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="contact-info-text">
+                  <div class="contact-info-label">Call Us</div>
+                  <div class="contact-info-value">+91 XXXXX XXXXX</div>
+                </div>
+              </div>
+
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="contact-info-text">
+                  <div class="contact-info-label">Working Hours</div>
+                  <div class="contact-info-value">Mon – Fri, 9AM – 6PM</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-social" data-aos="fade-up">
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="YouTube"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap" data-aos="fade-up">
+            <div class="form-header">
+              <h3 class="form-title">Send Us a Message</h3>
+              <p class="form-sub">We'll respond within 24 hours.</p>
+            </div>
+
+            <form class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fullName">Full Name</label>
+                  <div class="input-wrap">
+                    <i class="fas fa-user input-icon"></i>
+                    <input
+                      type="text"
+                      id="fullName"
+                      name="fullName"
+                      placeholder="John Doe"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <div class="input-wrap">
+                    <i class="fas fa-envelope input-icon"></i>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="john@example.com"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <div class="input-wrap">
+                    <i class="fas fa-phone input-icon"></i>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      placeholder="+91 XXXXX XXXXX"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="service">Service</label>
+                  <div class="input-wrap">
+                    <i class="fas fa-briefcase input-icon"></i>
+                    <select id="service" name="service" required>
+                      <option value="">Select a service</option>
+                      <option value="performance-marketing">
+                        Performance Marketing
+                      </option>
+                      <option value="brand-building">Brand Building</option>
+                      <option value="creative">Creative & Influencer</option>
+                      <option value="seo">SEO</option>
+                      <option value="marketplace">Marketplace</option>
+                      <option value="social">Social Media</option>
+                      <option value="ai">AI Innovation</option>
+                      <option value="cloud">Cloud & DevOps</option>
+                      <option value="mobile">Mobile Dev</option>
+                      <option value="web">Web Dev</option>
+                      <option value="ux">UX & Design</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <div class="input-wrap textarea-wrap">
+                  <i class="fas fa-comment-dots input-icon"></i>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="3"
+                    placeholder="Share your goals, timeline, and budget..."
+                    required
+                  ></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="contact-submit">
+                <span>Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+
+              <div class="form-trust">
+                <span><i class="fas fa-shield-alt"></i> Secure</span>
+                <span><i class="fas fa-clock"></i> 24h Response</span>
+                <span><i class="fas fa-lock"></i> No Spam</span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="about-cta">
+        <div class="about-cta-container">
+          <h2 class="about-cta-title" data-aos="fade-up">
+            Ready to Work With Us?
+          </h2>
+
+          <p class="about-cta-sub" data-aos="fade-up">
+            Let's build your growth engine together.
+          </p>
+
+          <a
+            href="contact.html"
+            class="about-cta-btn contact-trigger"
+            data-aos="fade-up"
+          >
+            Get in Touch →
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- TOP: 4 COLUMNS -->
+        <div class="footer-top">
+          <!-- COLUMN 1: BRAND -->
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <img src="hawkmarktech.png" alt="Hawk MarTech" />
+            </div>
+            <p class="footer-tagline">
+              Marketing meets technology to multiply your growth. We build
+              brands, products, and experiences that scale.
+            </p>
+
+            <!-- Social Icons -->
+            <div class="footer-social">
+              <a href="#" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="#" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#" aria-label="Twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="#" aria-label="YouTube">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- COLUMN 2: SERVICES -->
+          <div class="footer-col">
+            <h4 class="footer-heading">Services</h4>
+            <ul class="footer-links">
+              <li><a href="#">Performance Marketing</a></li>
+              <li><a href="#">Brand Building</a></li>
+              <li><a href="#">Creative Execution</a></li>
+              <li><a href="#">SEO & Organic Growth</a></li>
+              <li><a href="#">E-commerce & Marketplace</a></li>
+              <li><a href="#">Full Funnel Marketing</a></li>
+            </ul>
+          </div>
+
+          <!-- COLUMN 3: COMPANY -->
+          <div class="footer-col">
+            <h4 class="footer-heading">Company</h4>
+            <ul class="footer-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Blogs</a></li>
+            </ul>
+          </div>
+
+          <!-- COLUMN 4: CONTACT -->
+          <div class="footer-col">
+            <h4 class="footer-heading">Get in Touch</h4>
+            <ul class="footer-contact">
+              <li>
+                <span class="contact-icon">📍</span>
+                <span>DLF Corporate Greens, Sector 74A, Gurugram, India</span>
+              </li>
+              <li>
+                <span class="contact-icon">✉️</span>
+                <span>hello@hawkmartech.com</span>
+              </li>
+              <li>
+                <span class="contact-icon">📞</span>
+                <span>+91 98211 22203</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- NEWSLETTER -->
+        <div class="footer-newsletter">
+          <div class="newsletter-content">
+            <h3 class="newsletter-title">Get weekly growth tips</h3>
+            <p class="newsletter-desc">
+              Join 5,000+ marketers getting our best insights every Friday.
+            </p>
+          </div>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit">Subscribe →</button>
+          </form>
+        </div>
+
+        <!-- BOTTOM BAR -->
+        <div class="footer-bottom">
+          <p class="footer-copy">© 2025 Hawk MarTech. All rights reserved.</p>
+          <div class="footer-legal">
+            <a href="#">Privacy Policy</a>
+            <span>·</span>
+            <a href="#">Terms of Service</a>
+            <span>·</span>
+            <a href="#">Sitemap</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script1.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200,
+        once: false,
+        mirror: true,
+      });
+    </script>
+  </body>
+</html>
